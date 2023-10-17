@@ -1,9 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- ... other theme definitions ... -->
     <style name="Base.Theme.GPACalculator" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Customize your dark theme here. -->
+        <item name="android:windowBackground">@color/black</item>
     </style>
-
-    <style name="Theme.GPACalculator" parent="Base.Theme.GPACalculator" />
 </resources>

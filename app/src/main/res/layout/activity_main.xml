@@ -29,12 +29,15 @@
         app:layout_constraintVertical_bias="0.627" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/getStartedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#2196F3"
+        android:backgroundTint="#2596be"
+        android:fontFamily="cursive"
         android:onClick="Cal"
         android:text="Get Started"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.869"
@@ -48,13 +51,13 @@
         android:layout_width="352dp"
         android:layout_height="123dp"
         android:autoText="false"
-        android:fontFamily="sans-serif-black"
+        android:fontFamily="cursive"
         android:gravity="center"
         android:text="Welcome to GPAForge"
-        android:textColor="#2196F3"
+        android:textColor="#172868"
 
         android:textColorLink="#2196F3"
-        android:textSize="30sp"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
@@ -66,13 +69,16 @@
         android:id="@+id/textView"
         android:layout_width="320dp"
         android:layout_height="60dp"
+        android:fontFamily="cursive"
         android:text="Say goodbye to manual calculations. We value your time, so you can focus on what truly matters—your studies!"
+        android:textColor="#172868"
         android:textColorHint="#3F51B5"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.858" />
+        app:layout_constraintVertical_bias="0.84000003" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
